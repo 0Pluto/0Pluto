@@ -6,7 +6,7 @@
   <link href="https://gitee.com/lazyo/lazyo/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/lazyo/lazyo/"/>
-  <updated>2022-04-23T13:49:02.134Z</updated>
+  <updated>2022-04-23T14:00:55.310Z</updated>
   <id>https://gitee.com/lazyo/lazyo/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Git相关</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/1167979253.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/1167979253.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/1167979253/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/1167979253/</id>
     <published>2022-04-23T13:28:59.000Z</published>
-    <updated>2022-04-23T13:49:02.134Z</updated>
+    <updated>2022-04-23T14:00:55.310Z</updated>
     
     <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="用户名和邮箱地址"><a href="#用户名和邮箱地址" class="headerlink" title="用户名和邮箱地址"></a>用户名和邮箱地址</h2><p>git 在本地安装好后需要设置用户名及邮箱，以免团队协作时不知道是谁的提交</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看</span></span><br><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改</span></span><br><span class="line">git config --global user.name <span class="string">&quot;XXX&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;XXX&quot;</span></span><br></pre></td></tr></table></figure><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>查看远程仓库名称:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><p>更换url</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin &lt;new url&gt;</span><br></pre></td></tr></table></figure><p>添加远程关联</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin &lt;url&gt;</span><br></pre></td></tr></table></figure><p>删除远程关联</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote remove &lt;url&gt;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -41,12 +41,12 @@
   
   <entry>
     <title>磨人的配置问题</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/2268505157.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/2268505157.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/2268505157/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/2268505157/</id>
     <published>2022-04-23T12:41:20.000Z</published>
-    <updated>2022-04-23T13:35:35.264Z</updated>
+    <updated>2022-04-23T14:19:57.640Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>初弄这个博客应该是在去年也就是2021年底我开始弄的，那个时候真的是从零开始，先是找平台，然后找主题，跟着文档挨个配置，后面部署在了码云上面，也能成功访问了。在上面也写过几篇文章，后面就没怎么接触了。</p><p>后来刷题，想到得写写博客记录一下。毕竟“好记性不如烂笔头”，忘了什么、或者刷题时看到一些很巧妙的方法，可以记下来下次直接拿来用。于是又想起了这个博客。</p><p>于是我开始去找之前存放博客源文件的文件夹，怎么也找不到。虽然前一段时间刚刚把系统从Windows11刷回了Windows10，但这并不影响别的盘里面的文件啊。后面我才突然意识到，因为降系统前我习惯性备份文件夹，但是备份到代码这个文件夹时，里面专门放前端的代码的当时文件太多，都是研一做的项目没用了，而且我压缩不过来，所幸就全都删了（而且还是习惯性<code>Shift + delete</code>），根本没想到里面还夹杂着我的博客源文件。</p><p>一整个没了，仅存的是部署在码云上面编译好的静态文件。里面稍微有点用的大概就是头像和背景了把。</p><h1 id="中序"><a href="#中序" class="headerlink" title="中序"></a>中序</h1><p>于是又重新走了一遍配置的流程，部署上去，虽然还是花了不少时间，但是也能成功访问了。过了几天，因为文章的标题会作为文章链接的一部分，复制地址的时候会转义成一长串，看着很不爽。刚好我看到别人的博客是那种一串数字的，试着搜了一下关键词，还真有解决方法。</p><p>于是照着教程，跟着配置了一下，后面重新生成，本地预览，一切和我预想的一样。接下来的一段时间，我陆续写了几篇文章，都是本地预览。到了写简历的时候，我像之前那样开始走部署的步骤，更新Pages后去访问，傻眼了。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/2268505157/lazyo/%E7%A3%A8%E4%BA%BA%E7%9A%84%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/error.jpg" alt="部署后的页面"></p><p>我以为是我开了代理的原因，用手机访问，也是这个样子。我尝试着去搜索，搜不到类似的情形。前几天第一次发现这个问题，找不到解决方法，也就这样搁置了。</p><h1 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h1><p>今天周六，我又开始跟着这个杠上了。从上午一直到晚上八点多，陆陆续续的吧，期间把配置博客以及部署的一些地方都写了篇文章。</p><p>之后我试着去Butterfly主题作者的电报群问了一下，但没人回复（虽然现在已经解决了）。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/2268505157/lazyo/%E7%A3%A8%E4%BA%BA%E7%9A%84%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/ask.jpg" alt="问问题"></p><p>我问问题一般都有个习惯，除非是网络上真的搜不到，加上自己习惯问之前会把所有情景预想一遍。或许就是这样，我想着。不会是abbrlink的问题吧。我开始搜索和abbrlink有关的关键字，只找到“用了abbrlink之后本地图片无法显示”相关的问题。而且这个我现在都还没完全解决。</p><p>说来也巧，我看到一篇文章配置abbrlink的教程，对方的配置和我的不一样。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 对方正确的</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">p/:abbrlink.html</span></span><br><span class="line"><span class="comment"># 我的</span></span><br><span class="line"><span class="comment"># permalink: p/:abbrlink.html</span></span><br></pre></td></tr></table></figure><p>以至于我把部署平台换到了github，部署上去之后，神奇般的成功了…..至于为啥之前本地预览时任何问题都没有，其中的原因我也懒得去深究了。</p><h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>于是我的一天又这么浪费了。完美。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>初弄这个博客应该是在去年也就是2021年底我开始弄的，那个时候真的是从零开始，先是找平台，然后找主题，跟着文档挨个配置，后面部署在了码云上面，也能成功访问了。在上面也写过几篇文章，后面就没怎么接触了。</p><p>后来刷题，想到得写写博客记录一下。毕竟“好记性不如烂笔头”，忘了什么、或者刷题时看到一些很巧妙的方法，可以记下来下次直接拿来用。于是又想起了这个博客。</p><p>于是我开始去找之前存放博客源文件的文件夹，怎么也找不到。虽然前一段时间刚刚把系统从Windows11刷回了Windows10，但这并不影响别的盘里面的文件啊。后面我才突然意识到，因为降系统前我习惯性备份文件夹，但是备份到代码这个文件夹时，里面专门放前端的代码的当时文件太多，都是研一做的项目没用了，而且我压缩不过来，所幸就全都删了（而且还是习惯性<code>Shift + delete</code>），根本没想到里面还夹杂着我的博客源文件。</p><p>一整个没了，仅存的是部署在码云上面编译好的静态文件。里面稍微有点用的大概就是头像和背景了把。</p><h1 id="中序"><a href="#中序" class="headerlink" title="中序"></a>中序</h1><p>于是又重新走了一遍配置的流程，部署上去，虽然还是花了不少时间，但是也能成功访问了。过了几天，因为文章的标题会作为文章链接的一部分，复制地址的时候会转义成一长串，看着很不爽。刚好我看到别人的博客是那种一串数字的，试着搜了一下关键词，还真有解决方法。</p><p>于是照着教程，跟着配置了一下，后面重新生成，本地预览，一切和我预想的一样。接下来的一段时间，我陆续写了几篇文章，都是本地预览。到了写简历的时候，我像之前那样开始走部署的步骤，更新Pages后去访问，傻眼了。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/226850/lazyo/%E7%A3%A8%E4%BA%BA%E7%9A%84%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/error.jpg" alt="部署后的页面"></p><p>我以为是我开了代理的原因，用手机访问，也是这个样子。我尝试着去搜索，搜不到类似的情形。前几天第一次发现这个问题，找不到解决方法，也就这样搁置了。</p><h1 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h1><p>今天周六，我又开始跟着这个杠上了。从上午一直到晚上八点多，陆陆续续的吧，期间把配置博客以及部署的一些地方都写了篇文章。</p><p>之后我试着去Butterfly主题作者的电报群问了一下，但没人回复（虽然现在已经解决了）。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/226850/lazyo/%E7%A3%A8%E4%BA%BA%E7%9A%84%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/ask.jpg" alt="问问题"></p><p>我问问题一般都有个习惯，除非是网络上真的搜不到，加上自己习惯问之前会把所有情景预想一遍。或许就是这样，我想着。不会是abbrlink的问题吧。我开始搜索和abbrlink有关的关键字，只找到“用了abbrlink之后本地图片无法显示”相关的问题。而且这个我现在都还没完全解决。</p><p>说来也巧，我看到一篇文章配置abbrlink的教程，对方的配置和我的不一样。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 对方正确的</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">p/:abbrlink.html</span></span><br><span class="line"><span class="comment"># 我的</span></span><br><span class="line"><span class="comment"># permalink: p/:abbrlink/</span></span><br></pre></td></tr></table></figure><p>以至于我把部署平台换到了github，部署上去之后，神奇般的成功了…..至于为啥之前本地预览时任何问题都没有，其中的原因我也懒得去深究了。</p><h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>于是我的一天又这么浪费了。完美。</p>]]></content>
     
     
     <summary type="html">一个笔误，我花了差不多一周才找到问题所在...</summary>
@@ -64,12 +64,12 @@
   
   <entry>
     <title>博客部署</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/1228297440.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/1228297440.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/1228297440/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/1228297440/</id>
     <published>2022-04-23T08:31:17.000Z</published>
     <updated>2022-04-23T13:34:25.099Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/1228297440/lazyo/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/lazyo/lazyo/lazyo/lazyo/p/1228297440/lazyo/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">将博客部署到平台上的步骤</summary>
@@ -85,8 +85,8 @@
   
   <entry>
     <title>Butterfly配置</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/524782646.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/524782646.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/524782646/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/524782646/</id>
     <published>2022-04-23T06:26:01.000Z</published>
     <updated>2022-04-23T13:15:14.022Z</updated>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>基础数据结构的使用</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/186303481.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/186303481.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/186303481/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/186303481/</id>
     <published>2022-04-11T11:18:18.000Z</published>
     <updated>2022-04-23T08:14:33.693Z</updated>
     
@@ -129,8 +129,8 @@
   
   <entry>
     <title>二分搜索</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/2561891005.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/2561891005.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/2561891005/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/2561891005/</id>
     <published>2022-04-09T08:17:04.000Z</published>
     <updated>2022-04-23T08:14:33.686Z</updated>
     
@@ -158,8 +158,8 @@
   
   <entry>
     <title>搜索算法</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/67234334.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/67234334.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/67234334/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/67234334/</id>
     <published>2022-04-09T03:01:37.000Z</published>
     <updated>2022-04-23T08:14:33.704Z</updated>
     
@@ -181,8 +181,8 @@
   
   <entry>
     <title>解题过程中的小技巧</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/4265691309.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/4265691309.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/4265691309/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/4265691309/</id>
     <published>2022-04-09T02:43:59.000Z</published>
     <updated>2022-04-23T08:14:33.700Z</updated>
     
@@ -204,8 +204,8 @@
   
   <entry>
     <title>基础排序算法</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/336169982.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/336169982.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/336169982/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/336169982/</id>
     <published>2022-04-02T12:27:39.000Z</published>
     <updated>2022-04-23T08:14:33.696Z</updated>
     
@@ -227,8 +227,8 @@
   
   <entry>
     <title>单调栈</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/374442589.html"/>
-    <id>https://gitee.com/lazyo/lazyo/p/374442589.html</id>
+    <link href="https://gitee.com/lazyo/lazyo/p/374442589/"/>
+    <id>https://gitee.com/lazyo/lazyo/p/374442589/</id>
     <published>2022-04-02T07:09:36.000Z</published>
     <updated>2022-04-23T08:14:33.691Z</updated>
     
