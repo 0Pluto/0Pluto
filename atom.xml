@@ -3,11 +3,11 @@
   <title>Lazy Blog</title>
   
   
-  <link href="https://gitee.com/lazyo/lazyo/atom.xml" rel="self"/>
+  <link href="https://0pluto.github.io/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/lazyo/lazyo/"/>
+  <link href="https://0pluto.github.io/"/>
   <updated>2022-04-23T11:58:44.283Z</updated>
-  <id>https://gitee.com/lazyo/lazyo/</id>
+  <id>https://0pluto.github.io/</id>
   
   <author>
     <name>Lazy</name>
@@ -18,29 +18,29 @@
   
   <entry>
     <title>博客部署</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/1228297440/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/1228297440/</id>
+    <link href="https://0pluto.github.io/p/1228297440.html"/>
+    <id>https://0pluto.github.io/p/1228297440.html</id>
     <published>2022-04-23T08:31:17.000Z</published>
     <updated>2022-04-23T11:58:44.283Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/source/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/source/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/p/1228297440/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/p/1228297440/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">将博客部署到平台上的步骤</summary>
     
     
     
-    <category term="教程" scheme="https://gitee.com/lazyo/lazyo/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://0pluto.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="博客" scheme="https://gitee.com/lazyo/lazyo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://0pluto.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>Butterfly配置</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/524782646/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/524782646/</id>
+    <link href="https://0pluto.github.io/p/524782646.html"/>
+    <id>https://0pluto.github.io/p/524782646.html</id>
     <published>2022-04-23T06:26:01.000Z</published>
     <updated>2022-04-23T08:36:52.102Z</updated>
     
@@ -51,17 +51,17 @@
     
     
     
-    <category term="教程" scheme="https://gitee.com/lazyo/lazyo/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://0pluto.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="主题配置" scheme="https://gitee.com/lazyo/lazyo/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <category term="主题配置" scheme="https://0pluto.github.io/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>基础数据结构的使用</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/186303481/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/186303481/</id>
+    <link href="https://0pluto.github.io/p/186303481.html"/>
+    <id>https://0pluto.github.io/p/186303481.html</id>
     <published>2022-04-11T11:18:18.000Z</published>
     <updated>2022-04-23T08:14:33.693Z</updated>
     
@@ -72,19 +72,19 @@
     
     
     
-    <category term="剑指Offer" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/"/>
+    <category term="剑指Offer" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/"/>
     
-    <category term="小技巧" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <category term="小技巧" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="数据结构" scheme="https://gitee.com/lazyo/lazyo/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://0pluto.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title>二分搜索</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/2561891005/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/2561891005/</id>
+    <link href="https://0pluto.github.io/p/2561891005.html"/>
+    <id>https://0pluto.github.io/p/2561891005.html</id>
     <published>2022-04-09T08:17:04.000Z</published>
     <updated>2022-04-23T08:14:33.686Z</updated>
     
@@ -99,21 +99,21 @@
     
     
     
-    <category term="剑指Offer" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/"/>
+    <category term="剑指Offer" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/"/>
     
-    <category term="常见题型" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B/"/>
+    <category term="常见题型" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B/"/>
     
     
-    <category term="算法" scheme="https://gitee.com/lazyo/lazyo/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://0pluto.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="二分搜索" scheme="https://gitee.com/lazyo/lazyo/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/"/>
+    <category term="二分搜索" scheme="https://0pluto.github.io/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/"/>
     
   </entry>
   
   <entry>
     <title>搜索算法</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/67234334/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/67234334/</id>
+    <link href="https://0pluto.github.io/p/67234334.html"/>
+    <id>https://0pluto.github.io/p/67234334.html</id>
     <published>2022-04-09T03:01:37.000Z</published>
     <updated>2022-04-23T08:14:33.704Z</updated>
     
@@ -124,19 +124,19 @@
     
     
     
-    <category term="剑指Offer" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/"/>
+    <category term="剑指Offer" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/"/>
     
-    <category term="基础算法" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/"/>
+    <category term="基础算法" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="搜索" scheme="https://gitee.com/lazyo/lazyo/tags/%E6%90%9C%E7%B4%A2/"/>
+    <category term="搜索" scheme="https://0pluto.github.io/tags/%E6%90%9C%E7%B4%A2/"/>
     
   </entry>
   
   <entry>
     <title>解题过程中的小技巧</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/4265691309/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/4265691309/</id>
+    <link href="https://0pluto.github.io/p/4265691309.html"/>
+    <id>https://0pluto.github.io/p/4265691309.html</id>
     <published>2022-04-09T02:43:59.000Z</published>
     <updated>2022-04-23T08:14:33.700Z</updated>
     
@@ -147,19 +147,19 @@
     
     
     
-    <category term="剑指Offer" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/"/>
+    <category term="剑指Offer" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/"/>
     
-    <category term="小技巧" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <category term="小技巧" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="技巧" scheme="https://gitee.com/lazyo/lazyo/tags/%E6%8A%80%E5%B7%A7/"/>
+    <category term="技巧" scheme="https://0pluto.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>基础排序算法</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/336169982/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/336169982/</id>
+    <link href="https://0pluto.github.io/p/336169982.html"/>
+    <id>https://0pluto.github.io/p/336169982.html</id>
     <published>2022-04-02T12:27:39.000Z</published>
     <updated>2022-04-23T08:14:33.696Z</updated>
     
@@ -170,19 +170,19 @@
     
     
     
-    <category term="剑指Offer" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/"/>
+    <category term="剑指Offer" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/"/>
     
-    <category term="基础算法" scheme="https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/"/>
+    <category term="基础算法" scheme="https://0pluto.github.io/categories/%E5%89%91%E6%8C%87Offer/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="排序" scheme="https://gitee.com/lazyo/lazyo/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="https://0pluto.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>单调栈</title>
-    <link href="https://gitee.com/lazyo/lazyo/p/374442589/"/>
-    <id>https://gitee.com/lazyo/lazyo/p/374442589/</id>
+    <link href="https://0pluto.github.io/p/374442589.html"/>
+    <id>https://0pluto.github.io/p/374442589.html</id>
     <published>2022-04-02T07:09:36.000Z</published>
     <updated>2022-04-23T08:14:33.691Z</updated>
     
@@ -193,10 +193,10 @@
     
     
     
-    <category term="LeetCode" scheme="https://gitee.com/lazyo/lazyo/categories/LeetCode/"/>
+    <category term="LeetCode" scheme="https://0pluto.github.io/categories/LeetCode/"/>
     
     
-    <category term="单调栈" scheme="https://gitee.com/lazyo/lazyo/tags/%E5%8D%95%E8%B0%83%E6%A0%88/"/>
+    <category term="单调栈" scheme="https://0pluto.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/"/>
     
   </entry>
   
