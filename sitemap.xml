@@ -117,13 +117,6 @@
   </url>
   
   <url>
-    <loc>https://gitee.com/lazyo/lazyo/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gitee.com/lazyo/lazyo/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -145,7 +138,7 @@
   </url>
   
   <url>
-    <loc>https://gitee.com/lazyo/lazyo/tags/%E6%8E%92%E5%BA%8F/</loc>
+    <loc>https://gitee.com/lazyo/lazyo/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -160,6 +153,13 @@
   
   <url>
     <loc>https://gitee.com/lazyo/lazyo/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gitee.com/lazyo/lazyo/tags/%E6%8E%92%E5%BA%8F/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -196,6 +196,13 @@
   </url>
   
   <url>
+    <loc>https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -204,13 +211,6 @@
   
   <url>
     <loc>https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gitee.com/lazyo/lazyo/categories/%E5%89%91%E6%8C%87Offer/%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

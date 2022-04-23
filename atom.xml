@@ -6,7 +6,7 @@
   <link href="https://gitee.com/lazyo/lazyo/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/lazyo/lazyo/"/>
-  <updated>2022-04-23T09:22:40.534Z</updated>
+  <updated>2022-04-23T11:58:44.283Z</updated>
   <id>https://gitee.com/lazyo/lazyo/</id>
   
   <author>
@@ -21,15 +21,12 @@
     <link href="https://gitee.com/lazyo/lazyo/p/1228297440/"/>
     <id>https://gitee.com/lazyo/lazyo/p/1228297440/</id>
     <published>2022-04-23T08:31:17.000Z</published>
-    <updated>2022-04-23T09:22:40.534Z</updated>
+    <updated>2022-04-23T11:58:44.283Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/lazyo/lazyo/img/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/lazyo/lazyo/img/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="创建项目分支"><a href="#创建项目分支" class="headerlink" title="创建项目分支"></a>创建项目分支</h2><p>这里创建两个分支，然后将博客的默认分支更改为sources</p><ul><li>master: 存放Hexo编译生成的静态文件</li><li>sources: 存放源文件，用来备份博客</li></ul><p>首先新建一个代码仓库，仓库名字要和平台的用户名一致。<br><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/source/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.jpg" alt="创建仓库"></p><p>创建新的分支</p><p><img src="/lazyo/lazyo/lazyo/lazyo/p/122829/lazyo/source/_posts/2022/04/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E6%96%B0%E5%BB%BAsources%E5%88%86%E6%94%AF.jpg" alt="新建sources分支"></p><h2 id="本地目录与远程仓库关联"><a href="#本地目录与远程仓库关联" class="headerlink" title="本地目录与远程仓库关联"></a>本地目录与远程仓库关联</h2><p>进入到Hexo目录，执行命令</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git config <span class="literal">--global</span> user.name <span class="string">&quot;lazyo&quot;</span></span><br><span class="line">git config <span class="literal">--global</span> user.email <span class="string">&quot;example@qq.com&quot;</span> </span><br><span class="line">git remote add origin https://gitee.com/lazyo/lazyo.git</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;hexo source post&#x27;</span></span><br><span class="line">git push origin sources</span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;h2 id=&quot;创建项目分支&quot;&gt;&lt;a href=&quot;#创建项目分支&quot; class=&quot;headerlink&quot; title=&quot;创建项目分支&quot;&gt;&lt;/a&gt;创</summary>
-      
+    <summary type="html">将博客部署到平台上的步骤</summary>
     
     
     
